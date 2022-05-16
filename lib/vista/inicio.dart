@@ -4,10 +4,12 @@ import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:product_rain/temas/color.dart';
+import 'package:product_rain/temas/tema_mapa.dart';
 import 'package:product_rain/util/constantes.dart';
 import 'package:product_rain/util/drawer_json.dart';
 import 'package:product_rain/vista/comentarios.dart';
 import 'package:product_rain/vista/fovoritos.dart';
+import 'package:product_rain/vista/mapsbox.dart';
 import 'package:product_rain/vista/perfiles.dart';
 
 import 'inicio_calzado.dart';
@@ -204,8 +206,8 @@ class _paginaInicioState extends State<paginaInicio> {
       index: selectedIndex,
       children: [
         InicioShoes(),
-        ComentarioPagina(),
-        FavoritoPagina(),
+        MapaAnimado(),
+        MainMapa(),
         PerfilPagina(),
       ],
       

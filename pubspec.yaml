@@ -19,19 +19,20 @@ version: 1.0.0+1
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
-     
 
 dependencies:
+  animate_do: ^2.0.0
+  carousel_slider: ^4.0.0
   cloud_firestore: ^2.5.4
   cupertino_icons: ^1.0.2
+  flutter_map: ^0.14.0
   firebase_auth: ^3.1.4
   firebase_core: ^1.8.0
-  animate_do: ^2.0.0
-  flutter_svg: ^0.22.0
-  flutter_rating_bar:
-  carousel_slider: ^4.0.0
   flutter:
     sdk: flutter
+ 
+  flutter_rating_bar: null
+  flutter_svg: ^0.22.0
   fluttertoast: ^8.0.8
 
 dev_dependencies:
